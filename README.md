@@ -7,11 +7,17 @@ A full-stack e-commerce web application built using React (Frontend) and Node.js
 👤 User Features
 
 Browse products with images, prices, and search functionality
+
 Add / remove products from cart
+
 Increase or decrease product quantity
+
 Persistent cart using LocalStorage
+
 Checkout with shipping address
+
 Payment method selection (Cash on Delivery / Card)
+
 Order confirmation page with full summary
 
 🛠 Admin Features
