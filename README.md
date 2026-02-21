@@ -1,62 +1,67 @@
-🛒 Full Stack E-Commerce Web Application
+# 🛒 Full Stack E-Commerce Web Application
 
-A production-style full-stack e-commerce platform built using **React (Frontend)** and **Node.js + Express (Backend)**.  
-This application simulates real-world online shopping functionality including product browsing, cart management, checkout, order placement, and admin order control.
+- A production-style full-stack e-commerce platform built using **React (Frontend)** and **Node.js + Express (Backend)**.  
+- This application simulates real-world online shopping functionality including product browsing, cart management, checkout, order placement, and admin order control.
 
-🚀 Key Features
+## 🚀 Key Features
 
-👤 User Features
+### 👤 User Features
 
-- Browse products with images and pricing
-- Add / remove items from cart
-- Increase or decrease product quantity
-- Persistent cart using LocalStorage
-- Checkout with shipping address
-- Payment method selection (Cash on Delivery / Card)
-- Order confirmation page with full summary
+- Browse products with images and pricing  
+- Add / remove items from cart  
+- Increase or decrease product quantity  
+- Persistent cart using LocalStorage  
+- Checkout with shipping address  
+- Payment method selection (Cash on Delivery / Card)  
+- Order confirmation page with full summary  
 
-🛠 Admin Features
+### 🛠 Admin Features
 
-- Secure admin login
-- View all placed orders
-- View payment method & payment status
-- Delete orders
-- Add new products via UI
+- Secure admin login  
+- View all placed orders  
+- View payment method & payment status  
+- Delete orders  
+- Add new products via UI  
 
-⚙ Backend Capabilities
+## ⚙ Backend Capabilities
 
-- RESTful API architecture
-- Products & Orders management
-- In-memory data storage
-- CORS enabled for frontend-backend communication
-- Express middleware for JSON handling
+- RESTful API architecture  
+- Products & Orders management  
+- In-memory data storage  
+- CORS enabled for frontend-backend communication  
+- Express middleware for JSON handling  
 
-🧰 Tech Stack
+## 🧰 Tech Stack
 
-Frontend
-- React
-- React Router DOM
-- JavaScript (ES6+)
-- HTML5 & CSS
+### Frontend
+- React  
+- React Router DOM  
+- JavaScript (ES6+)  
+- HTML5  
+- CSS  
 
-Backend
-- Node.js
-- Express.js
-- CORS
+### Backend
+- Node.js  
+- Express.js  
+- CORS  
 
-🔌 API Endpoints
+## 🔌 API Endpoints
 
-Products
-GET /api/products → Fetch all products
+### Products
+GET /api/products  
+→ Fetch all products  
 
-Orders
-POST /api/orders → Place new order
+### Orders
+POST /api/orders  
+→ Place new order  
 
-GET /api/orders → Fetch all orders (Admin)
+GET /api/orders  
+→ Fetch all orders (Admin)  
 
-DELETE /api/orders/:id → Delete order (Admin)
+DELETE /api/orders/:id  
+→ Delete order (Admin)  
 
-🧪 Application Flow
+## 🧪 Application Flow
 
 1. User visits homepage  
 2. Browses products  
@@ -69,51 +74,52 @@ DELETE /api/orders/:id → Delete order (Admin)
 9. Order stored on backend  
 10. Admin manages orders  
 
-▶️ How to Run Locally
+## ▶️ How to Run Locally
 
-1️⃣ Start Backend
+### 1️⃣ Start Backend
 
-cd backend
-npm install
+cd backend  
+npm install  
+node server.js  
 
-node server.js
+Backend runs at:  
+http://localhost:5000  
 
-Backend runs at:
-http://localhost:5000
+### 2️⃣ Start Frontend
 
-2️⃣ Start Frontend
+cd frontend  
+npm install  
+npm run dev  
 
-cd frontend
+Frontend runs at:  
+http://localhost:5173  
 
-npm install
+## 🔐 Admin Credentials
 
-npm run dev
+Password: `admin`  
 
-Frontend runs at:
-http://localhost:5173
+## 🧠 Learning Outcomes
 
-🔐 Admin Credentials
-Password: `admin`
+- Full-stack architecture understanding  
+- REST API design  
+- React state management  
+- Client-side routing  
+- Cart & checkout logic implementation  
+- Frontend–backend integration  
 
-🧠 Learning Outcomes
+## 🚧 Future Improvements
 
-- Full-stack architecture understanding
-- REST API design
-- React state management
-- Client-side routing
-- Cart & checkout logic implementation
-- Frontend–backend integration
+- Database integration (MongoDB / PostgreSQL)  
+- Authentication with JWT  
+- Real payment gateway (Stripe / Razorpay)  
+- Order status tracking  
+- Product image upload  
+- Responsive UI & improved styling  
 
-🚧 Future Improvements
+## 💡 Conclusion
 
-- Database integration (MongoDB / PostgreSQL)
-- Authentication with JWT
-- Real payment gateway (Stripe / Razorpay)
-- Order status tracking
-- Product image upload
-- Responsive UI & improved styling
+- This full-stack e-commerce platform demonstrates the implementation of real-world shopping features such as product listing, cart management, checkout flow, and order handling.
 
-💡 Conclusion
+- The project highlights strong fundamentals in React, REST API development with Express, and seamless frontend–backend integration, making it a solid production-style web application.
 
-This full-stack e-commerce platform demonstrates the implementation of real-world shopping features such as product listing, cart management, checkout flow, and order handling. The project highlights strong fundamentals in React, REST API development with Express, and seamless frontend–backend integration, making it a solid production-style web application.
-This project reflects hands-on experience in developing an end-to-end full-stack system, demonstrating problem-solving skills, clean code practices, and real-world application development experience.
+- This project reflects hands-on experience in developing an end-to-end full-stack system, demonstrating problem-solving skills, clean code practices, and real-world application development experience.
